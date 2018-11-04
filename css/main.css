@@ -1,0 +1,156 @@
+.container{
+	max-width: 1140px;
+}
+
+.first-section{
+	background-image: url("../images/header.png");
+	background-repeat: no-repeat;
+	height: 100vh;
+	color: white;
+}
+
+.second-section .content{
+	height: 100vh;
+	color: black;
+	padding-top: 30px;
+}
+
+.second-section .content .row > div{
+	text-align: center; 
+}
+
+.second-section .content .row .header{
+	font-size: 14px;
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.second-section .content .row .description{
+	font-family: "Montserrat", sans-serif;
+	font-size: 12px;
+	font-weight: 100;
+	text-align: center;
+}
+
+.second-section .content .row .content-icon{
+	min-height: 50px;
+}
+
+.second-section .content .central-text{
+	padding-top: 40px;
+}
+
+.second-section .content .central-text .header{
+	font-family: "Raleway", sans-serif;
+	font-size: 18px;
+	text-align: center;
+}
+
+.second-section .content .central-text .description{
+	padding-top: 5px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 12px;
+	text-align: center;
+}
+
+.second-section .container .content{
+	position: relative;	
+}
+
+.second-section .cont-images{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.second-section .cont-images div img{
+	max-width: 450px;
+}
+
+.second-section .cont-images .absolute-picture{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -225px;
+}
+
+a{
+	color: white;
+}
+
+header{
+	height: 100vh;
+}
+
+header nav{
+	padding-top: 40px;
+}
+
+header .logo{
+	font-family: "Raleway", sans-serif;
+	font-size: 24px;
+}
+
+header .menu a{
+	margin-left: 15px;
+}
+
+header .menu a:hover{
+	color: white;
+}
+
+.icons img{
+	margin-left: 15px;
+}
+
+header .menu {
+	display: flex;
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+}
+
+.slogan{
+	text-align: center;
+	padding-top: 150px;
+}
+
+.slogan .sect-1{
+	font-size: 32px;
+	font-family: "Raleway", sans-serif;
+}
+
+.slogan .sect-2{
+	font-size: 52px;
+	font-family: "Raleway", sans-serif;
+	font-weight: 900;
+}
+
+.slogan .sect-3{
+	font-size: 16px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 100;
+}
+
+.slogan button{
+	border-color: white;
+	border-radius: 10px;
+	width: 180px;
+	height: 40px;
+	background: grey;
+	color: white;
+	margin-top: 10px;
+	font-size: 16px;
+	font-family: "Raleway", sans-serif;
+	cursor: pointer;
+	outline: none;
+}
+
+.slogan{
+	margin-bottom: 200px;
+}
