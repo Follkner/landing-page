@@ -137,15 +137,17 @@ header .menu {
 	font-weight: 100;
 }
 
-.slogan button{
-	border-color: white;
-	border-radius: 10px;
+.slogan button, .third-section button{
+	border: 0;
+	border-bottom: 2px solid #736357;
+	border-radius: 5px;
 	width: 180px;
 	height: 40px;
-	background: grey;
+	background: #998675;
 	color: white;
-	margin-top: 10px;
+	margin-top: 15px;
 	font-size: 16px;
+	font-weight: 800;
 	font-family: "Raleway", sans-serif;
 	cursor: pointer;
 	outline: none;
@@ -153,4 +155,43 @@ header .menu {
 
 .slogan{
 	margin-bottom: 200px;
+}
+
+.third-section .purchase-section{
+	height: 100px;
+	background: linear-gradient(to right, #211b19, #4e3427);
+}
+
+.third-section .purchase-section .heading{
+	font-size: 22px;
+	color: #e4e2e1;
+	font-family: "Montserrat", sans-serif;
+	padding-top: 15px;
+}
+
+.third-section .purchase-section .heading .main{
+	color: #c7b299;
+}
+
+.third-section .purchase-section .subtitle{
+	font-size: 16px;
+	color: #615855;
+	font-family: "Raleway", sans-serif;
+}
+
+
+.btnSt {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 0;
+  border: solid 1px transparent;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  color: #ffffff;
+}
+
+.btnSt:active {
+  transform: translateY(1px);
+  filter: saturate(150%);
 }
