@@ -158,12 +158,12 @@ header .menu {
 }
 
 .third-section .purchase-section{
-	height: 100px;
+	height: 80px;
 	background: linear-gradient(to right, #211b19, #4e3427);
 }
 
 .third-section .purchase-section .heading{
-	font-size: 22px;
+	font-size: 18px;
 	color: #e4e2e1;
 	font-family: "Montserrat", sans-serif;
 	padding-top: 15px;
@@ -174,7 +174,7 @@ header .menu {
 }
 
 .third-section .purchase-section .subtitle{
-	font-size: 16px;
+	font-size: 14px;
 	color: #615855;
 	font-family: "Raleway", sans-serif;
 }
