@@ -14,3 +14,26 @@ $('body').on('click', '#close-popup, #overlay', function(event) {
         $('#close-popup, #magnify, #overlay').remove();
     });
 });
+
+
+
+let vid = document.getElementById("bgvid");
+let pauseButton = document.querySelector("#btn-play");
+
+function vidFade() {
+  vid.classList.add("stopfade");
+}
+
+vid.addEventListener('ended', function(){
+  vid.pause();
+  vidFade();
+}); 
+
+pauseButton.addEventListener("click", function() {
+  let pathBtn = $(this).attr('src');
+  (pathBtn == "icons/icon-play.png")?$(this).attr("src", "icons/icon-pause.png"): $(this).attr("src", "icons/icon-play.png");
+
+  vid.classList.toggle("stopfade");
+
+  vid.paused? vid.play(): vid.pause();
+})
