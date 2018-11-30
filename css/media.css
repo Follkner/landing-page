@@ -1,17 +1,57 @@
 @media (max-width: 575.98px) {
-	.slogan{
+	
+	.first-section .container .slogan{
 		padding-top: 50px;
 	}
 
-	.third-section .purchase-section{
-		margin-top: 200px;
+	.first-section .container .row{
+		margin-left: 0;
 	}
 
+	.first-section .container .slogan .sect-1{
+		font-size: 20px;
+	}
 
+	.first-section .container .slogan .sect-2{
+		font-size: 24px;
+	}
+
+	.second-section .central-text{
+		display: none;
+	}
+
+	.third-section .purchase-section{
+		margin-top: 150px;
+	}
+	
+	#video-description{
+		min-width: 300px;
+		margin-left: -150px;
+	}
+
+	.third-section .purchase-section .container .heading{
+		font-size: 14px;
+		padding-top: 20px;
+	}
+
+	.fourth-section #video-description .description, .third-section .purchase-section .container .subtitle{
+		display: none;
+	}
 	
 }
 
 @media (max-width: 767.98px) { 
+
+	.first-section .container .menu{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+
+	/* .first-section{
+		height: 1024px;
+	} */
+	
 	.second-section .cont-images{
 		display: none;
 	}
@@ -21,7 +61,19 @@
 	}
 
 	.third-section .purchase-section .purchase-btn{
-		margin-top: 20px;
+		margin-top: 30px;
+	}
+
+	.fourth-section #video-description .title{
+		font-size: 18px;
+	}
+
+	.fourth-section #video-description .description{
+		font-size: 12px;
+	}
+
+	#video-description img{
+		width: 50px;
 	}
 }
 
