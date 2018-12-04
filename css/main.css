@@ -335,3 +335,57 @@ video {
 .fourth-section .title{
     font-size: 30px;
 }
+
+.sixth-section{
+	margin-top: 100px;
+	text-align: justify;
+}
+
+.sixth-section img{
+	max-height: 500px;
+}
+
+.sixth-section .title{
+	font-size: 24px;
+	text-align: left;
+	padding: 30px 0;
+}
+
+.sixth-section .list{
+	padding: 30px 0 0 50px;
+	text-align: left;
+	font-size: 14px;
+	font-family: "Myriad Pro", sans-serif;
+}
+
+.sixth-section .list .list-element{
+	padding-top: 10px;
+}
+
+.sixth-section .list .list-element img{
+	padding-right: 20px;
+}
+
+.sixth-section .counters{
+	height: 250px;
+	background: linear-gradient(to right, #211b19, #4e3427);
+	color: #c7b299;
+	text-transform: uppercase;
+	font-weight: 200;
+	text-align: center;
+}
+
+.sixth-section .counters .number{
+	font-family: "Montserrat-ExtraLight";
+	font-size: 48px;
+	color: white;
+}
+
+.sixth-section .counters .container{
+	height: 100%;
+}
+
+.sixth-section .counters .container .row{
+	height: 100%;
+	padding-top: 10px 0;
+}
